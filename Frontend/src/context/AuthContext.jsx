@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
@@ -16,7 +16,6 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-=======
 import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
@@ -34,5 +33,5 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
->>>>>>> 91b4f54e8989a807e5ebc3c3bddf9576a6c5542a
+
 export const useAuth = () => useContext(AuthContext);
