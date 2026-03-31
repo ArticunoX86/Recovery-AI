@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // 🔹 Register User
 export const registerUser = (user) => {
     const users = JSON.parse(localStorage.getItem("users")) || [];
@@ -42,7 +42,7 @@ export const logoutUser = () => {
 // 🔹 Get Current Logged-in User
 export const getCurrentUser = () => {
     return JSON.parse(localStorage.getItem("currentUser"));
-=======
+
 // 🔹 Register User
 export const registerUser = (user) => {
     const users = JSON.parse(localStorage.getItem("users")) || [];
@@ -86,5 +86,5 @@ export const logoutUser = () => {
 // 🔹 Get Current Logged-in User
 export const getCurrentUser = () => {
     return JSON.parse(localStorage.getItem("currentUser"));
->>>>>>> 91b4f54e8989a807e5ebc3c3bddf9576a6c5542a
+
 };
